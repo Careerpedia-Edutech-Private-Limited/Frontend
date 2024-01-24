@@ -26,9 +26,10 @@ const mentorRoutes = [
   },
 ];
 
+
 function App() {
   return (
-    <>
+    <div>
       <ScrollToTop>
         {window.innerWidth > 1000 ? (
           <Routes>
@@ -47,13 +48,14 @@ function App() {
               ))}
             </Route>
             <Route path="*" element={<PageNotFound />}></Route>
+            
           </Routes>
         ) : (
           <MobileScreen />
         )}
       </ScrollToTop>
       <Toaster position="top-center" reverseOrder={false} />
-    </>
+    </div>
   );
 }
 
