@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    margin: 0 0 0 3px;
+    padding: 10px;
+    background-color:#ffffff;
+    width: calc(100vw - 15vw);
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}

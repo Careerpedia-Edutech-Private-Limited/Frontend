@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overallBackground {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+
+
+a {
+    color: #7D8FB3;
+    font-size: 14px;
+    font-weight: 600;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #FF9F43;
+    
+}
+
+
+
+.main {
+    border: 2px solid #6567691c;
+    border-radius: 10px;
+    padding: 20px 0;
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    overflow: scroll;
+    color: #7D8FB3;
+    background-color: #ffffff;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.homeLogo {
+    background-color: #FFF;
+}
+
+.homeLogo img {
+    width: 120px;
+}
+
+.profilBox {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #6567691c;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background-color: #FFF;
+
+}
+
+.name img {
+    width: 35px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #FFF;
+}
+
+.progressBar {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 9px;
+    background-color: #FFF;
+
+}
+
+.progressBar img {
+    width: 110px;
+}
+
+p {
+    font-size: 10px;
+    background-color: #FFF;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #FFF;
+
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFF;
+}

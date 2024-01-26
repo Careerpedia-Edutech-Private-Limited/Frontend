@@ -12,7 +12,9 @@ import MobileScreen from "./components/mobileScreen/MobileScreen";
 import PageNotFound from "./components/pageNotFound/PageNotFound";
 
 // Pages
-import { MentorDashboard,MentorProfile } from "./pagesImport/mentorPagesImports";
+import { MentorDashboard, MentorProfile } from "./pagesImport/MentorPagesImports";
+import { StudentBasicCourse, StudentDashboard ,StudentCsep,StudentCsap,Studentjobs,StudentRefer,StudentSupport,StudentInterviews} from "./pagesImport/StudentPagesImport";
+
 
 // Route Data
 const mentorRoutes = [
@@ -26,6 +28,42 @@ const mentorRoutes = [
   },
 ];
 
+const StudentRoutes = [
+  {
+    path: "dashboard",
+    element: <StudentDashboard />
+  },
+
+  {
+    path: "basic-course",
+    element: <StudentBasicCourse />
+  },
+  {
+    path: "csep",
+    element: <StudentCsep />
+  },
+  {
+    path: "csap",
+    element: <StudentCsap />
+  },
+  {
+    path: "Jobs",
+    element: <Studentjobs />
+  },
+  {
+    path: "Refer",
+    element: <StudentRefer />
+  },
+  {
+    path: "Support",
+    element: <StudentSupport />
+  },
+  {
+    path: "Interviews",
+    element: <StudentInterviews />
+  },
+]
+
 function App() {
   return (
     <>
@@ -33,6 +71,8 @@ function App() {
         {window.innerWidth > 1000 ? (
           <Routes>
             <Route path="/" element={<h1>Careerpedia</h1>} />
+
+
             <Route path="/mentor">
               {mentorRoutes.map((route, index) => (
                 <Route
@@ -46,6 +86,27 @@ function App() {
                 />
               ))}
             </Route>
+
+
+
+            <Route path="/student">
+              {StudentRoutes.map((route, index) => (
+                <Route
+                  key={index}
+                  path={route.path}
+                  element={
+                    <React.Suspense fallback={<Fallback />}>
+                      {route.element}
+                    </React.Suspense>
+                  }
+                />
+
+              ))}
+
+            </Route>
+
+
+
             <Route path="*" element={<PageNotFound />}></Route>
           </Routes>
         ) : (
