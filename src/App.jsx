@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.scss";
+// import "./App.scss"/;
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
@@ -12,7 +12,7 @@ import MobileScreen from "./components/mobileScreen/MobileScreen";
 import PageNotFound from "./components/pageNotFound/PageNotFound";
 
 // Pages
-import { MentorDashboard,MentorProfile } from "./pagesImport/mentorPagesImports";
+import { MentorDashboard,MentorProfile, MentorInterviews } from "./pagesImport/MentorPagesImports";
 
 // Route Data
 const mentorRoutes = [
@@ -24,6 +24,10 @@ const mentorRoutes = [
     path: "profile",
     element: <MentorProfile />,
   },
+  {
+    path: "interview",
+    element: <MentorInterviews />,
+  }
 ];
 
 function App() {

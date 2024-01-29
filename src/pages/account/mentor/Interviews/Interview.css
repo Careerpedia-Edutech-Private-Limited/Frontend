@@ -1,0 +1,49 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.interview-page {
+    width: 100vw;
+    display: flex;
+}
+
+.sideBar {
+    width: 15vw;
+    height: 1024px;
+    flex-shrink: 0;  
+    background-color: aqua;
+}
+
+.right {
+    width: 85vw;
+    height: 908px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #F8F8F8;
+    background: #FFF;
+    /* padding: 2px; */
+}
+
+.navbar {
+    width: 1208px;
+    height: 78px;
+    flex-shrink: 0;
+    color: #2F4362;
+    font-family: Montserrat;
+    font-size: 18px;
+    /* font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.09px; */
+}
+
+.content {
+    display: flex;
+    width: 85vw;
+    height: 2px;
+    border-radius: 20px;
+    border: 2px solid #F8F8F8;
+    background: #FFF;
+}

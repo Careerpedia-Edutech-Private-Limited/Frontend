@@ -1,9 +1,21 @@
 import React from 'react'
+import "./Dashboard.css"
+import Card from './components/cards/Card'
+import Navbar from './components/Navbar/Navbar'
+
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>dashboard</h1>
+    <div className='dashboard'>
+      <div className="sideBar"></div>
+
+      <div className="right">
+        <div className="navbar"><Navbar/></div>
+
+        <div className="content">
+          <Card />
+        </div>
+      </div>
     </div>
   )
 }
