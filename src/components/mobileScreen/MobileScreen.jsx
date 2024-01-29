@@ -1,11 +1,12 @@
 import "./mobileScreen.scss";
 
-import img from "../../assets/mobile.png";
+// import img from "../../assets/mobile.png";
+
 
 const MobileScreen = () => {
   return (
     <div className="mobile-screen">
-      <img src={img} alt="" />
+      {/* <img src={img} alt="" /> */}
       <div className="text">
         <h2>Desktop Experience Recommended</h2>
         <p>Enhanced performance awaits on laptops and desktops.</p>

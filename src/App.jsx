@@ -2,7 +2,9 @@ import React from "react";
 import "./App.scss";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-
+import Sidebar from "./components/sidebar/Sidebar";
+import Navbar from "./components/navbar/Navbar"
+import Recuiter from "./components/sidebar/Recuiter";
 // Utils
 import ScrollToTop from "./utils/ScrollToTop";
 
@@ -33,7 +35,11 @@ function App() {
         {window.innerWidth > 1000 ? (
           <Routes>
             <Route path="/" element={<h1>Careerpedia</h1>} />
+            <Route path="/sidebar" element={<Sidebar/>} />
+            <Route path="/navbar" element={<Navbar/>} />
+            <Route path="/recuiter" element={<Recuiter/>} />
             <Route path="/mentor">
+              
               {mentorRoutes.map((route, index) => (
                 <Route
                   key={index}
