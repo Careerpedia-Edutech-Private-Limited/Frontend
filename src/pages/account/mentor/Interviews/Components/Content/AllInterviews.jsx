@@ -18,9 +18,6 @@ const buttonStyle = {
   borderRadius: '12px', // Set the desired border radius
 };
 
-// const  = {
-//   color: '#28C76F',
-// }
 
 const rows = [
   createData(<Avatar alt="Profile Image" src={profileImage} />, 'John Doe', '20 Apr 2023', '10:00 to 11:00', 5, <Typography variant="subtitle1"  color="#28C76F">Promoted</Typography>),

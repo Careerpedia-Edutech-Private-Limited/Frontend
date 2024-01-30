@@ -23,7 +23,6 @@
     border-radius: 20px;
     border: 2px solid #F8F8F8;
     background: #FFF;
-    /* padding: 2px; */
 }
 
 .navbar {
@@ -33,17 +32,17 @@
     color: #2F4362;
     font-family: Montserrat;
     font-size: 18px;
-    /* font-style: normal;
+    font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    letter-spacing: 0.09px; */
+    letter-spacing: 0.09px;
 }
 
 .content {
     display: flex;
-    width: 85vw;
+    width: 83vw;
     height: 2px;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px solid #F8F8F8;
     background: #FFF;
 }

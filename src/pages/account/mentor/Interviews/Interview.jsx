@@ -28,12 +28,6 @@ function CustomTabPanel(props) {
     </div>
   );
 }
-function a11yProps(index) {
-  return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
-  };
-}
 
 function capitalizeFirstLetter(text) {
   return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
@@ -54,31 +48,40 @@ const Interview = () => {
         </div>
         <div className="content">
           <Box sx={{ width: '100%' }}>
-            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
               <Tabs 
                 value={value} 
-                onChange={handleChange} 
+                onChange={handleChange}
                 aria-label="basic tabs example"
                 textColor="black"
                 fontSize="12px"
-                indicatorColor="primary">
+                fontWeight='600'
+                // indicatorColor="deepOrange"
+                TabIndicatorProps={{
+                  style: {
+                    backgroundColor: "orange"
+                  }
+                }}
+                >
                 
                 <Tab 
                   label={capitalizeFirstLetter("Today’s Interviews")}
-                  {...a11yProps(0)} 
-                  sx={{ borderBottom: value === 0 ? '2px solid orange' : 'none', color: value === 0 ? 'orange' : 'black', 
-                  fontSize: '12px',
-                  textTransform: 'none' }}
+                  sx={{ 
+                    color: value === 0 ? 'orange': '#2F4362', 
+                    fontSize: '12px',
+                    fontWeight: '600',
+                    textTransform: 'none'
+                   }}
                 />
                 <Tab 
                   label={capitalizeFirstLetter("All Interviews")} 
-                  {...a11yProps(1)}
-                  sx={{ borderBottom: value === 1 ? '2px solid orange' : 'none', color: value === 1 ? 'orange' : 'black',
-                  fontSize: '12px',
-                  textTransform: 'none' }} 
+                  sx={{ 
+                    color: value === 1 ? 'orange' : '#2F4362',
+                    fontSize: '12px',
+                    fontWeight: '600',
+                    textTransform: 'none'
+                   }} 
                 />
               </Tabs>
-            </Box>
             <CustomTabPanel value={value} index={0}>
               <Content />
             </CustomTabPanel>
