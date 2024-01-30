@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mentor-dashboard{
+width: 100vw;
+display: flex;
+background-color: #FFF;
+}
+.sidebar{
+     width: 15vw;
+    height: 1024px;
+    flex-shrink: 0;
+    border: 2px solid #F8F8F8;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.careerpedia1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 20px;
+}
+.careerpedia2{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.careerpedia{
+/* width: 156.177px;
+height: 30.777px; */
+flex-shrink: 0;
+}
+.katie-text{
+color: #64748B;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.dashboard-text{
+    color: #FF9F43;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+}
+.image{
+    /* width: 200px; */
+height: 80px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #F8F8F8;
+background: #FFF;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.image-photo{
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+}
+.image-size{
+width: 18px;
+height: 18px;
+flex-shrink: 0;
+}
+.dashboard-interview-cource{
+    display: inline-flex;
+padding: 0px 47px 128px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
+.dashboard{
+    display: flex;
+    gap: 20px;
+}
+.text-group{
+    color: #7D8FB3;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
+.right{
+width: 85vw;
+height: 1024px;
+padding:0px 80px 0px 10px;
+}
+.navbar{
+    width:1208px;
+    height: 88px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px 0px opx;
+}
+.react-calendar__tile--active{
+    background-color:#FF9F43 !important;
+    width: 28.84px;
+    height: 37.84px;
+border-radius: 50%;
+}
+.mask{
+    width: 16.308px;
+height: 18px;
+flex-shrink: 0;
+}
+.myschedule{
+    color: #2F4362;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; 
+letter-spacing: 0.09px;
+}
+.content{
+width: 1176px;
+height: 901px;
+display: flex;
+border-radius: 20px;
+border: 2px solid #F8F8F8;
+background: #FFF;
+justify-content: space-between;
+padding: 20px 20px;
+flex-direction: column;
+}
+.selectedDate{
+    width: 100%;
+}
+.datetext{
+color: #2F4362;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0.09px;
+}
+.cards-calender{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+   padding: 20px 0px;
+   gap: 20px;
+    
+}
+
+.cards{
+    width: 60%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.react-calendar{
+    height: 322px;
+    border-radius: 10px;
+    border: 2px solid #F8F8F8;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+
+

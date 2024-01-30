@@ -1,0 +1,121 @@
+        .card{
+    width: 363px;
+    height: 248px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #F8F8F8;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+   
+    .Card-properties{
+        display: flex;
+        justify-content: space-between;
+    }
+    .monica{
+    color: #2F4362;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    .icons-imge{
+    width: 18px;
+    height: 18px;
+    
+    }
+    .text-10{
+    color: #7D8FB3;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .icons-text{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    .text-800{
+    color: #7D8FB3;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+.briefcase-https{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+   
+}
+.https{
+    color: #7D8FB3;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.connect-button{
+    width: 151.343px;
+    height: 34px;
+display: inline-flex;
+padding: 8px 10px;
+justify-content: center;
+align-items: flex-start;
+border-radius: 6px;
+background: #FF9F43;
+color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 150% */
+}
+.decline-button{
+    display: flex;
+    width: 151.343px;
+    height: 34px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #FF9F43;
+    color: #FF9F43;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 19.2px */
+    }
+
+.three-https{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
