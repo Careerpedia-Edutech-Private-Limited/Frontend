@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Calender from './components/calender/Calender';
+import Cards from './components/cards/Cards';
 
 const Dashboard = () => {
   return (
     <div>
-      <h1>dashboard</h1>
+     
+    
     </div>
   )
 }
