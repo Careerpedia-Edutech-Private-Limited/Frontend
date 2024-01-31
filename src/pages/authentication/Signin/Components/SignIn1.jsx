@@ -19,12 +19,6 @@ const SignIn1 = () => {
     } else {
       setEmailError('');
     }
-
-    // if (!emailRegex.test(email)) {
-    //   setEmailError('Invalid email address. Please include "@" symbol.');
-    // } else {
-    //   setEmailError('');
-    // }
   };
 
   const validatePassword = () => {
@@ -59,7 +53,7 @@ const SignIn1 = () => {
     // If no errors, show popup for successful login or redirect to another page
     if (!emailError && !passwordError) {
       // You can replace the following line with your own logic for redirection or showing a popup
-      alert('Login successful!'); // Show a popup for successful login
+      alert('Signed in successful!'); // Show a popup for successful login
       // OR
       // Redirect logic here with a welcome message
       window.location.href = '/welcome?email=' + encodeURIComponent(email);
@@ -79,26 +73,26 @@ const SignIn1 = () => {
           <p>Welcome back! please enter your detail</p>
         </div>
 
-        <div className="right_side">
-          <form onSubmit={handleSubmit}>
-            <div>
-              <input type="text" placeholder='Enter your Email' value={email} onChange={(e) => setEmail(e.target.value)} onBlur={validateEmail} />
-              {emailError && <p>{emailError}</p>}
-            </div>
-            <div className='pass'>
-              <input type="password" placeholder="Enter your Password" value={password} onChange={(e) => setPassword(e.target.value)} onBlur={validatePassword} />
-              {passwordError && <p>{passwordError}</p>}
-            </div>
 
-            <div className='image'>
-              <img src={img1} alt="vbjj" />
-            </div>
+        <form onSubmit={handleSubmit}>
+          <div>
+            <input type="text" placeholder='Enter your Email' value={email} onChange={(e) => setEmail(e.target.value)} onBlur={validateEmail} />
+            {emailError && <p>{emailError}</p>}
+          </div>
+          <div className='pass'>
+            <input type="password" placeholder="Enter your Password" value={password} onChange={(e) => setPassword(e.target.value)} onBlur={validatePassword} />
+            {passwordError && <p>{passwordError}</p>}
+          </div>
 
-            <Link to="#">Forgot Password?</Link>
+          <div className='image'>
+            <img src={img1} alt="vbjj" />
+          </div>
 
-            <button type="submit">Sign in</button>
-          </form>
-        </div>
+          <Link to="#">Forgot Password?</Link>
+
+          <button type="submit">Sign in</button>
+        </form>
+
       </div>
     </div>
   );
