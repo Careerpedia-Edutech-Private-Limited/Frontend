@@ -12,7 +12,10 @@ import MobileScreen from "./components/mobileScreen/MobileScreen";
 import PageNotFound from "./components/pageNotFound/PageNotFound";
 
 // Pages
-import { MentorDashboard,MentorProfile } from "./pagesImport/mentorPagesImports";
+import { MentorDashboard, MentorProfile } from "./pagesImport/mentorPagesImports";
+import SignIn from "./pages/authentication/Signin/Components/SignIn";
+import SignIn1 from "./pages/authentication/Signin/Components/SignIn1";
+import LoginForm from "./pages/authentication/Signin/Components/LoginForm";
 
 // Route Data
 const mentorRoutes = [
@@ -33,6 +36,9 @@ function App() {
         {window.innerWidth > 1000 ? (
           <Routes>
             <Route path="/" element={<h1>Careerpedia</h1>} />
+            <Route path="/home" element={<SignIn />} />
+            <Route path="/home1" element={<SignIn1 />} />
+            <Route path="/home2" element={<LoginForm />} />
             <Route path="/mentor">
               {mentorRoutes.map((route, index) => (
                 <Route
