@@ -1,0 +1,97 @@
+
+
+span,p{
+ color: rgba(125, 143, 179, 1)}
+h1{
+  color:rgba(47, 67, 98, 1)
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+ 
+}
+.video {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+ 
+}
+.video img {
+  width: 664px;
+  height: 411px;
+  border-radius: 25px;
+}
+
+#play{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ position: absolute;
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ background-color: rgba(255, 255, 255, 0.3);
+ border: 2px white solid;
+}
+#play h1{
+  color: white;
+}
+.courseContent {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px 40px;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.part1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.part2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.line1 {
+    width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.line2 {
+    width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}

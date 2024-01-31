@@ -7,3 +7,8 @@ export const MentorDashboard = React.lazy(() =>
 export const MentorProfile = React.lazy(() =>
   import("../pages/account/mentor/profile/Profile")
 );
+
+
+export const MentorCourseView = React.lazy(() =>
+  import("../pages/account/mentor/courseView/CourseView")
+);

@@ -1,0 +1,48 @@
+
+.sidebarContents{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 10px;
+}
+.reactangleBox{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.reactangleBox img{
+    width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+.dashboardLine{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 10px;
+}
+.interviewLine{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 10px;
+}
+.courseLine{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 10px;
+    
+}
+.courseLine span{
+    color: #FF9F43;
+}

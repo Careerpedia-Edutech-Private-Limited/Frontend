@@ -12,7 +12,7 @@ import MobileScreen from "./components/mobileScreen/MobileScreen";
 import PageNotFound from "./components/pageNotFound/PageNotFound";
 
 // Pages
-import { MentorDashboard,MentorProfile } from "./pagesImport/mentorPagesImports";
+import { MentorDashboard,MentorProfile,MentorCourseView } from "./pagesImport/MentorPagesImports";
 
 // Route Data
 const mentorRoutes = [
@@ -24,6 +24,11 @@ const mentorRoutes = [
     path: "profile",
     element: <MentorProfile />,
   },
+
+     {path: "course-view",
+    element: <MentorCourseView />,
+     }
+
 ];
 
 function App() {

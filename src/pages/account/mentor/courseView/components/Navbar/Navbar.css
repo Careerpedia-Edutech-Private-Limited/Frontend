@@ -1,0 +1,18 @@
+
+.navContent{
+width: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px 0px;
+}
+h2{
+    width: 50%;
+    color: #2F4362;
+}
+.bellIcon{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
