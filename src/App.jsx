@@ -13,6 +13,7 @@ import PageNotFound from "./components/pageNotFound/PageNotFound";
 
 // Pages
 import { MentorDashboard,MentorProfile } from "./pagesImport/mentorPagesImports";
+import EditProfile from "./pages/account/mentor/profile/EditProfile/EditProfile";
 
 // Route Data
 const mentorRoutes = [
@@ -33,6 +34,8 @@ function App() {
         {window.innerWidth > 1000 ? (
           <Routes>
             <Route path="/" element={<h1>Careerpedia</h1>} />
+            <Route path="/editprofile" element={<EditProfile />} />
+
             <Route path="/mentor">
               {mentorRoutes.map((route, index) => (
                 <Route
