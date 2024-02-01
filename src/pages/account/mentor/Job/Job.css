@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 15vw;
+    height: 1024px;
+    border: 2px solid #F8F8F8;
+    background-color: #FFF;
+}
+
+.Right-Section {
+    width: 1440px;
+    height: 1024px;
+}
+
+.navbar {
+    width: 85vw;
+    height: 88px;
+    background-color:antiquewhite;
+}
+
+.content {
+    /* width: 1176px; */
+    width: 85vw;
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+}
+
+.left-right-navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.navbar-left {
+    
+    width: 588px;
+    /* height: 899px; */
+    /* background-color: #94A3B8; */   
+}
+.navbar-right {
+    /* width: 85vw; */
+    width: 588px;
+    /* height: 899px; */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.navbar-right #all {
+
+    color: #FF9F43;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navbar-right p {
+    color: #7D8FB3;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#button1 {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    color: var(--Additional-white, #FFF);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 150% */
+    border-radius: 4px;
+    background: #FF9F43;
+}
+
+.Card-Properties {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
