@@ -36,7 +36,7 @@ function App() {
         {window.innerWidth > 1000 ? (
           <Routes>
             <Route path="/" element={<h1>Careerpedia</h1>} />
-           <Route path="/colloege" element={<College/>}/>
+           <Route path="/college" element={<College/>}/>
             <Route path="/mentor">
               {mentorRoutes.map((route, index) => (
                 <Route
