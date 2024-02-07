@@ -1,0 +1,145 @@
+
+.maincontainer{
+    display: flex;
+    width: 100%;
+   
+ .middlecontainer{
+    width: 88%;
+    margin-left: 12%;
+
+
+    .middleContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 10px;
+        gap: 10px;
+            
+        .createMember{
+            width: 87%;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            position: fixed;
+            top: 64px;
+            z-index: 9999999999;
+            background: #FFFFFF;
+
+
+            p{
+                font-size: 17px;
+                font-weight: 300;
+                color: black;
+                }
+              button {
+                 
+                width: 145px;
+                height:  34px;
+                padding: 10px 10px;
+                top: 107px;
+                left: 1259px;
+                border-radius: 9;
+                gap: 10px;
+                background: #FF9F43;
+                font-size: 12px;
+                color: white;
+                
+              }
+             
+
+        }
+
+        table{
+            border: 1px solid gray;
+            border-radius: 9px;
+            border-collapse: collapse;
+            position: sticky;
+            top: 150px;
+
+            thead{
+
+                tr{
+
+                    th{
+                        
+                    position: sticky;
+                    top: 105px;
+                    background: #FFFFFF;
+                     padding: 20px 0;
+                     margin-bottom: 10px;
+                    }
+                }
+            }
+
+
+            td{
+                border-bottom: 1px solid gray;
+                text-align: center;
+                padding: 20px;
+
+               
+            }
+            td img{
+                width: 80px;
+                object-fit: contain;
+                height: 30px;
+            }
+
+          }
+
+          form{
+            .pops{
+                border: 2px solid gray;
+                border-radius: 7px;
+                display: flex;
+                flex-direction: column;
+              
+                padding: 35px 15px;
+                text-align: center;
+                gap: 15px;
+                position: fixed;
+                top: 190px;
+                left: 550px;
+                background-color: transparent ;
+                backdrop-filter: blur(15px);
+            
+                
+               width: 450px;
+               height: 290px;
+                
+               
+               .pop input{
+                width: 220px;
+                height: 30px;
+                border: 1px solid black;
+                border-radius: 5px;
+                text-align: center;
+                
+               }
+
+               .pop label{
+                text-align: center;
+                display: flex;
+                justify-content: flex-start;
+               
+                 
+               }
+
+               
+               .pop button{
+                width: 80px;
+                height: 35px;
+                background-color: #FF9F43;
+                border-radius: 4px;
+                
+               
+               
+            }
+
+            }
+          }
+       
+       }
+    }
+ }
+

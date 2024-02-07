@@ -1,0 +1,27 @@
+
+
+
+.nav{
+    width: 88%;
+    display: flex;
+    // flex: 6;
+    justify-content:center;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 10px;
+    position: fixed;
+    top: 0px;
+    background: #FFFFFF;
+    z-index: 99999999999999999;
+    .navbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       
+        padding: 10px 10px;
+    }
+    .navbar h2{
+        
+        font-size: 20px;
+    }
+}

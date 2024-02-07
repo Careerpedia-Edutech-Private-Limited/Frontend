@@ -3,6 +3,8 @@ import "./App.scss";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
+
+import College from "./pages/account/admin/dashboard/CollegeList/College";
 // Utils
 import ScrollToTop from "./utils/ScrollToTop";
 
@@ -13,6 +15,7 @@ import PageNotFound from "./components/pageNotFound/PageNotFound";
 
 // Pages
 import { MentorDashboard,MentorProfile } from "./pagesImport/mentorPagesImports";
+
 
 // Route Data
 const mentorRoutes = [
@@ -33,6 +36,7 @@ function App() {
         {window.innerWidth > 1000 ? (
           <Routes>
             <Route path="/" element={<h1>Careerpedia</h1>} />
+           <Route path="/colloege" element={<College/>}/>
             <Route path="/mentor">
               {mentorRoutes.map((route, index) => (
                 <Route
