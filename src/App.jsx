@@ -2,6 +2,10 @@ import React from "react";
 import "./App.scss";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
+// import Navbar from '../src/components/navbar/Navbar'
+// import Sidebar from "../src/components/sidebar/Sidebar";
+import Mentor from "./pages/account/admin/Dashboard/Mentor/Mentor";
+
 
 // Utils
 import ScrollToTop from "./utils/ScrollToTop";
@@ -33,6 +37,10 @@ function App() {
         {window.innerWidth > 1000 ? (
           <Routes>
             <Route path="/" element={<h1>Careerpedia</h1>} />
+            {/* <Route path="/navbar" element={<Navbar/>} /> */}
+            {/* <Route path="/sidebar" element={<Sidebar/>} /> */}
+            <Route path="/mentor" element={<Mentor/>} />
+            
             <Route path="/mentor">
               {mentorRoutes.map((route, index) => (
                 <Route
