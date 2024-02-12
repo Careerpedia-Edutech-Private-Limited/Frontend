@@ -14,7 +14,7 @@ Each recruiter is uniquely identified using a key attribute, ensuring efficient 
 
 ![Screenshot 2024-02-12 111858](https://github.com/Careerpedia-Edutech-Private-Limited/Frontend/assets/151514338/8608d1d7-ee5d-4501-9e24-71ec3063cc9e)
 I styled the components using CSS 
-Certainly! In the “Recruiter List” page, I designed a dynamic navigation bar (navbar) with an initial heading of “Carrerpedia.” 
+Certainly! In the “Recruiter List” page, I designed a dynamic navigation bar (navbar) with an initial heading of “Careerpedia.” 
 ![Screenshot 2024-02-12 120206](https://github.com/Careerpedia-Edutech-Private-Limited/Frontend/assets/151514338/d59c58a6-aac6-4083-a2df-bd5a42e9aa45)
 By utilizing React props, I made the heading customizable. Now, when users interact with the page, the heading dynamically updates based on the context. This approach enhances reusability and allows for a more personalized user experience.
 ![Screenshot 2024-02-12 120516](https://github.com/Careerpedia-Edutech-Private-Limited/Frontend/assets/151514338/711747ae-0c85-4d9c-8e5c-2c0e1009e1ef)
