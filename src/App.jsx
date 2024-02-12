@@ -28,7 +28,7 @@ const mentorRoutes = [
   },
 ];
 
-function App() {
+function App(heading) {
   return (
     <>
       <ScrollToTop>
@@ -36,7 +36,7 @@ function App() {
           <Routes>
             <Route path="/" element={<h1>Careerpedia</h1>} />
             <Route path="/sidebar" element={<Sidebar/>} />
-            <Route path="/navbar" element={<Navbar/>} />
+            <Route path="/navbar" element={<Navbar heading="careerpedia"/> } />
             <Route path="/recuiter" element={<Recuiter/>} />
             <Route path="/mentor">
               

@@ -12,10 +12,13 @@ import book from "../../Assets/book.png"
 import "./SidebarStyle.css"
 import { Link } from 'react-router-dom'
 
-import Recuiter from './Recuiter'
-import { Routes,Route} from 'react-router-dom'
+
+
+
 const Sidebar = () => {
 
+    
+  
 const menu=[
   // {
   //   photo: dashborad,
@@ -37,10 +40,12 @@ const menu=[
     text: "Mentor",
     Link: "/mentor"
   },
-  {
+  { 
+
+   id:"recuiter",
     photo: search,
     text: "Recuiter",
-    Link: "/recuiter" 
+    Link:  "/recuiter "
   },
   {
     photo: book,
@@ -48,6 +53,7 @@ const menu=[
     Link: "/course"
   },
   {
+    id:"jobs",
     photo: briefcase,
     text: "Jobs",
     Link: "/jobs"
@@ -67,7 +73,7 @@ const menu=[
   
   return (
    <nav className='nav'>
-    <img src={group}/>
+    <img src={group} />
    
      <div className='list'>   
      <Link to= "">
@@ -77,9 +83,9 @@ const menu=[
      menu.map ((e, idx) =>
       <>
       
-     <Link to = "{Link}">
+     <Link to = {e.Link} >
      <img src={e.photo}/>
-     <p>
+     <p id={e.id}>
      {e.text}
      </p>
      </Link>

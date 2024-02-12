@@ -1,7 +1,7 @@
-nav p{
+.navbar p{
     width: 200px;
     color: #2F4362;
-    font-family: Montserrat;
+    font-family: "Montserrat";
 font-size: 18px;
 font-weight: 700;
 line-height: 22px;
@@ -10,20 +10,21 @@ text-align: left;
 
     
 }
-nav{
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-height: 12vh;
-/* left: 232px; */
+    width: 88%;
+height: 20vh;
+
 position: fixed;
 z-index: 99999999;
-padding: 0px 80px;
+left: 230px;
+padding: 25px;
 
 
 }
-nav #img{
+.navbar #img{
     width: 38px;
 height: 38px;
 top: 34px;

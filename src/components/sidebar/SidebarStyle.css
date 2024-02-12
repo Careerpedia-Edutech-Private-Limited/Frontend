@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    width: 20%;
+    width: 232px;
 height: 100vh;
 flex-shrink: 0;
 border: 2px solid #F8F8F8;
@@ -35,7 +35,7 @@ justify-content: space-around;
     top: 130px;
     left: 30px;
     gap: 40px;
-justify-content: space-between;
+
 align-items: center;
 flex-shrink: 0;
 }
@@ -61,12 +61,12 @@ left: 30px
     top: 130px;
     left: 30px;
     gap: 20px;
-justify-content: space-between;
+/* justify-content: space-between; */
 align-items: center;
 flex-shrink: 0;
 }
 .nav p{
-    font-family: Montserrat;
+    font-family: "Montserrat";
 font-size: 13px;
 font-weight: 700;
 line-height: 24px;
