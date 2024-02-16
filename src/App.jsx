@@ -3,6 +3,7 @@ import "./App.scss";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
+
 // Utils
 import ScrollToTop from "./utils/ScrollToTop";
 
@@ -13,8 +14,11 @@ import PageNotFound from "./components/pageNotFound/PageNotFound";
 
 // Pages
 import { MentorDashboard, MentorProfile } from "./pagesImport/mentorPagesImports";
+import TodayInterviews from "./pages/account/Admin/Interview/Components/TodayInterviews/TodayInterviews";
+import AllInterviews from "./pages/account/Admin/Interview/Components/AllInterviews/AllInterviews";
+import Interviews from "./pages/account/Admin/Interview/Interviews";
 
-import SignIn1 from "./pages/authentication/Signin/Components/SignIn1";
+// import SignIn1 from "./pages/authentication/Signin/Components/SignIn1";
 
 
 // Route Data
@@ -27,6 +31,26 @@ const mentorRoutes = [
     path: "profile",
     element: <MentorProfile />,
   },
+  // {
+  //   path: "navbar",
+  //   element: <Navbar/>,
+  // },
+  // {
+  //   path: "sidebar",
+  //   element: <Sidebar/>,
+  // },
+  // {
+  //   path: "allinterviews",
+  //   element: <AllInterviews/>,
+  // },
+  // {
+  //   path: "todayinterviews",
+  //   element: <TodayInterviews/>,
+  // },
+  // {
+  //   path: "interview",
+  //   element: <Interview/>,
+  // },
 ];
 
 function App() {
@@ -36,9 +60,14 @@ function App() {
         {window.innerWidth > 1000 ? (
           <Routes>
             <Route path="/" element={<h1>Careerpedia</h1>} />
-            
-            <Route path="/home1" element={<SignIn1 />} />
-            
+            {/* <Route path="/home1" element={<SignIn1 />} /> */}
+            {/* <Route path="/sidebar" element={<Sidebar/>}/> */}
+            {/* <Route path="/navbar" element={<Navbar/>}/> */}
+            <Route path="/todayinterviews" element={<TodayInterviews />} />
+            <Route path="/allinterviews" element={<AllInterviews />} />
+            <Route path="/interviews" element={<Interviews />} />
+
+           
             <Route path="/mentor">
               {mentorRoutes.map((route, index) => (
                 <Route

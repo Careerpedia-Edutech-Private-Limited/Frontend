@@ -1,9 +1,15 @@
 import React from 'react'
 
-const navbar = () => {
+import alaram from "../../assets/alaram.png";
+import "./NavbarStyle.css";
+
+const Navbar = () => {
   return (
-    <div>navbar</div>
+    <nav>
+      <p>Interview</p>
+      <img src={alaram} id='img'></img>
+    </nav>
   )
 }
 
-export default navbar
+export default Navbar

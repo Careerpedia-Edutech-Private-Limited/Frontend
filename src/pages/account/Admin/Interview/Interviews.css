@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+
+    /* position: fixed ; */
+    /* overflow-x: hidden; */
+}
+
+.sidebar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+   
+    width: 15vw;
+    margin-left: 20px;
+    /* flex: 0 0 250px; */
+    /* Fixed width sidebar */
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    /* display: flex; */
+
+    /* display: none; */
+    /* text-align: left; */
+    /* flex: 1; */
+    /* padding: 20px; */
+    /* Add padding to the content area */
+}
+
+
+.nav0{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.nav1{
+    /* margin-left: 200px; */
+    /* padding: 0 10px; */
+    display: flex;
+    /* justify-content: flex-start; */
+}
+
+.interviews {
+    margin-top: 20px;
+    /* Add margin to the top of the interviews section */
+}
+
+.interviews h2 {
+    cursor: pointer;
+}

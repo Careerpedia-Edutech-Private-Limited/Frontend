@@ -1,0 +1,36 @@
+nav p {
+    width: 200px;
+    color: #2F4362;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    text-align: left;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1210px;
+    height: 12vh;
+    margin-left: 200px;
+    /* left: 232px; */
+    /* position: fixed; */
+    /* z-index: 99999999; */
+    /* padding: 0px 80px; */
+
+
+}
+
+nav #img {
+    width: 38px;
+    height: 38px;
+    top: 34px;
+    left: 1386px;
+    border-radius: 32px;
+
+}
