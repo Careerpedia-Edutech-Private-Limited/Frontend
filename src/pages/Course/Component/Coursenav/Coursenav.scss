@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.coarsenav{
+    // width: 1178px;
+    width: 100%;
+height: 78px;
+// left: 246px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+// border: 1px solid black;
+padding: 0 40px;
+
+
+}
+
+.coarsenav h2{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.005em;
+// text-align: left;
+
+}

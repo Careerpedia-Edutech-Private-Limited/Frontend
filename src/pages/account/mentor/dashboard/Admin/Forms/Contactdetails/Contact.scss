@@ -1,0 +1,19 @@
+.div {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+  }
+  .input {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin-top: 10px;
+  }

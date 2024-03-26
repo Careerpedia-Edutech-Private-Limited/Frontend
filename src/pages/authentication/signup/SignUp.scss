@@ -1,0 +1,163 @@
+
+
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+//     p{
+//         font-family: Inter;
+// font-size: 12px;
+// font-weight: 400;
+
+// color: #64748B;
+//     }
+    h5{
+color: #64748B;
+
+    }
+    
+}
+
+.signuphead h2{
+    color: blue;
+
+}
+span{
+    color: blue;
+    cursor: pointer;
+
+}
+
+
+.checkcont p{
+    
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    
+    color: #64748B;
+
+}
+
+
+
+
+.inp{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px 30px;
+}
+
+.signup{
+    // border: 5px solid blue;
+    height: 100vh;
+    display: flex;
+}
+.signupform{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    gap: 10px;
+}
+#sinimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupimg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px ;
+    background-color: blue;
+
+}
+.signuphead{
+    display: flex;
+    // margin-right: 120px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 250px;
+}
+.firstlastname{
+    display: flex;
+    gap: 10px;
+}
+.titl::before,.titl::after{
+    content: "";
+    height: 1px;
+    width: 90%;
+    background-color: black;
+    display: block;
+    width: 100%;
+
+}
+.titl{
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+    align-items: center;
+    gap: 10px;
+}
+
+.formcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;;
+}
+
+.signupcont{
+    width: 50%;
+    border: 2px sold black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox{
+    // width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 100px
+}
+
+
+.signupbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signupbutton button{
+    padding: 10px 190px;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.tytle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google{
+    width: 300px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}

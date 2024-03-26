@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-student {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+  // border: 2px solid black;
+}
+.enroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.dropdown {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+.icon p{
+    width: 131px;
+  height: 25px;
+  top: 111px;
+  left: 1280px;
+
+}
+
+.dropdown-btn {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+.content {
+//   
+  top: 50px;
+  position: absolute;
+
+  padding: 7px;
+  font-weight: 400;
+  background: white;
+  width: 45%;
+}
+.dropitem {
+  transition: all 0.4s ease-out;
+}
+
+.dropitem h3 {
+  padding: 10px;
+  background-color: rgba(245, 245, 245, 0.399);
+  cursor: pointer;
+  color: #2f4362;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+.dropitem:hover {
+  background: #f4f4f4;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 157px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #f8f8f8;
+  background: #fff;
+}
+.enroll .enrolled {
+  width: 65px;
+  height: 25px;
+  flex-shrink: 0;
+  color: #ff9f43;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.enroll .enrolle {
+  color: #2f4362;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  width: 65px;
+  height: 25px;
+  cursor: pointer;
+}
+.dropdown p {
+  color: #0f172a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 178.571% */
+  padding: 0 10px;
+}

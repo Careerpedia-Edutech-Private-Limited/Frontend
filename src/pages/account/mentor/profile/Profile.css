@@ -1,0 +1,28 @@
+*p{
+    font-size: 20;
+    font-weight: 400px;
+}
+
+
+
+
+.profile{
+    width: 100%;
+}
+.sidebar{
+    width: 20%;
+    /* padding: 10px 30px; */
+}
+.up{
+    width: 80%;
+}
+.nav1{
+    margin-left: 300px;
+}
+.nav2{
+    width: 120%;
+
+    margin-left: 200px;
+    padding: 0 150px;
+}
+

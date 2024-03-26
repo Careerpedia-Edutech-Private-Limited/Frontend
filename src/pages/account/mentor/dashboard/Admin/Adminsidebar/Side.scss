@@ -1,0 +1,68 @@
+
+
+.sidbar{
+    width: 100%;
+    height: 100vh;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-right: 2px solid whitesmoke;
+}
+#carer{
+    width: 200px;
+    border-bottom: 3px solid whitesmoke;
+    padding: 20px  10px;
+
+}
+
+.kate{
+    width: 200px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    padding: 10px 20px ;
+
+}
+.kate img{
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.das{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.studnt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.job{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.job img{
+    width: 20px;
+    height: 20px;
+}
+.studnt img{
+    width: 30px;
+    height: 30px;
+}
+.itms{
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
