@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import "./utils/App.css"
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
@@ -13,18 +14,9 @@ import PageNotFound from "./components/pageNotFound/PageNotFound";
 
 // Pages
 import { MentorDashboard,MentorProfile } from "./pagesImport/mentorPagesImports";
+import Profile from "./pages/account/college/profile/Profile";
 
-// Route Data
-const mentorRoutes = [
-  {
-    path: "dashboard",
-    element: <MentorDashboard />,
-  },
-  {
-    path: "profile",
-    element: <MentorProfile />,
-  },
-];
+
 
 function App() {
   return (
@@ -33,19 +25,8 @@ function App() {
         {window.innerWidth > 1000 ? (
           <Routes>
             <Route path="/" element={<h1>Careerpedia</h1>} />
-            <Route path="/mentor">
-              {mentorRoutes.map((route, index) => (
-                <Route
-                  key={index}
-                  path={route.path}
-                  element={
-                    <React.Suspense fallback={<Fallback />}>
-                      {route.element}
-                    </React.Suspense>
-                  }
-                />
-              ))}
-            </Route>
+             <Route  path="/College/profile" element={<Profile/>}></Route>
+
             <Route path="*" element={<PageNotFound />}></Route>
           </Routes>
         ) : (

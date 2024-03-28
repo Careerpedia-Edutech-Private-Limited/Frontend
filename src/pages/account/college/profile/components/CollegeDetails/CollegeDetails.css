@@ -1,0 +1,62 @@
+.main{
+    border: 2px solid #F8F8F8;
+    border-radius: 8px;
+}
+
+
+.college{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 50px;
+}
+
+.college h1{
+font-size: 16px;
+font-weight: 600;
+color: #0F172A;
+}
+.college p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #64748B;
+    }
+
+.college-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px 50px;
+}
+.college-info{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.college-info2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.college-info h3, .college-info2 h3{
+    font-size: 14px;
+    font-weight: 700;
+    color: #64748B;
+}
+.college-info p, .college-info2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+.info13, .info14, .info15, .info16, .info17, .info18{
+    display: flex;
+    gap: 10px;
+}

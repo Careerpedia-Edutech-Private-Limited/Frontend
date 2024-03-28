@@ -1,0 +1,77 @@
+.main3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #F8F8F8;
+    border-radius: 8px;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 15px;
+}
+.logo{
+    padding: 10px;
+    border: 2px solid #F8F8F8;
+    border-radius: 8px;
+}
+.logo img{
+width: 157px;
+height: 31px;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid #F8F8F8;
+    border-radius: 8px;
+}
+.menu-list img{
+    width: 40px;
+    border-radius: 50%;
+}
+.dashboard-icon{
+    color: #FF9F43;
+    width: 22px;
+    height: 22px;
+}
+.education-icon,.experience-icon,.logout-icon{
+    width: 22px;
+    height: 22px;
+    color: #7D8FB3;
+}
+.list-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FF9F43;
+}
+.list2, .list3 {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #7D8FB3;
+}
+.list4{
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #7D8FB3;
+    padding: 30px 15px;
+}
